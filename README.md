@@ -35,5 +35,22 @@ conda activate gender_rewriting
 pip install -r requirements.txt
 ```
 
+### Running the Evaluation:
+Your system should generate ***four*** output files. Each one of those output files represents the target gender context we are modeling: 
+
+1. **Target MM**: Masculine first person and masculine second person.
+2. **Target FM**: Feminine first person and masculine second person.
+3. **Target MF**: Masculine first person and feminine second person.
+4. **Target FF**: Feminine first person and masculine second person.
+
+Once you have the four outputs, place them in a single directory and 
+
+## Organizers
+
+## License
+This repo is available under the MIT license. See the [LICENSE](LICENSE) for more info.
+
+## References
+
 
 

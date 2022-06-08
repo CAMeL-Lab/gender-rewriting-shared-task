@@ -21,10 +21,11 @@ All participating teams will use the publicly available [Arabic Parallel Gender 
 
 We will treat the task of gender rewriting as a user-aware grammatical error task and use the [M2 Scorer](XX) as the evaluation metric. The [M2 Scorer](XX) computes the Precision, Recall, and F0.5 of the word-level edits between the input and the rewritten output against the gold edits. We provide instructions on how to run the evaluation script below.<br/>
 
-### Installation Requirements:
+### Requirements:
 
 You will need to have [conda](https://docs.conda.io/en/latest/miniconda.html) installed. To setup the environment, you would need to run:
-```
+
+```bash
 git clone https://github.com/balhafni/gender-rewriting-shared-task.git
 cd gender-rewriting-shared-task
 
@@ -35,15 +36,29 @@ conda activate gender_rewriting
 pip install -r requirements.txt
 ```
 
+To run the m2scorer evaluation, you will also need to download the m2 files edits we have prepared for the dev and the test sets of the Arabic Parallel Gender Corpus. The m2 files are provided in this [release]().
+
 ### Running the Evaluation:
-Your system should generate ***four*** output files. Each one of those output files represents the target gender context we are modeling: 
+Your system should generate ***four*** output files. Each one of those output files represents the target gender context you are modeling: 
 
 1. **Target MM**: Masculine first person and masculine second person.
 2. **Target FM**: Feminine first person and masculine second person.
 3. **Target MF**: Masculine first person and feminine second person.
 4. **Target FF**: Feminine first person and masculine second person.
 
-Once you have the four outputs, place them in a single directory and 
+Once you have the four outputs, place them in a single directory and name them respectively as: **arin.to.MM**, **arin.to.FM**, **arin.to.MF**, and **arin.to.FF**. Since the Arabic Parallel Gender Corpus v2.1 is balanced by design, all of the four files should have the same number of sentences. The [output_example](xx) folder shows how the files should look like when you run your system on the dev set.<br/><br/>
+
+To run the m2scorer on your system's output, you would need to run:
+
+```bash
+bash scripts/eval.sh /path/to/outputs /path/to/m2_files [dev|test]
+```
+
+For example, to run the evaluation over the provided example outputs, you woud run:
+
+```bash
+bash scripts/eval.sh output_example m2_files dev
+```
 
 ## Organizers
 

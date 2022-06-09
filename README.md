@@ -54,7 +54,7 @@ To run the m2scorer on your system's output, you would need to run:
 bash scripts/eval.sh /path/to/outputs /path/to/m2_files [dev|test]
 ```
 
-For example, to run the evaluation over the provided example outputs, you woud run:
+For example, to run the evaluation over the provided dev set example outputs, you would run:
 
 ```bash
 bash scripts/eval.sh output_example m2_edits dev

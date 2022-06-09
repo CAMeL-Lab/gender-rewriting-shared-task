@@ -36,7 +36,7 @@ conda activate gender_rewriting
 pip install -r requirements.txt
 ```
 
-To run the m2scorer evaluation, you will also need to download the m2 files edits we have prepared for the dev and the test sets of the Arabic Parallel Gender Corpus. The m2 files are provided in this [release]().
+To run the m2scorer evaluation, you will also need to download the m2 files edits we have prepared for the dev and the test sets of the Arabic Parallel Gender Corpus. The m2 files are provided in this [release](https://github.com/CAMeL-Lab/gender-rewriting-shared-task/releases/tag/m2_edits).
 
 ### Running the Evaluation:
 Your system should generate ***four*** output files. Each one of those output files represents the target gender context you are modeling: 

@@ -32,4 +32,7 @@ conda activate python2
 
 python m2scorer/scripts/m2scorer.py $output_dir/all.pred.norm $m2_edits
 
+rm $output_dir/all.pred
+rm $output_dir/all.pred.norm
+
 

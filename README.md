@@ -57,7 +57,15 @@ bash scripts/eval.sh /path/to/outputs /path/to/m2_files [dev|test]
 For example, to run the evaluation over the provided example outputs, you woud run:
 
 ```bash
-bash scripts/eval.sh output_example m2_files dev
+bash scripts/eval.sh output_example m2_edits dev
+```
+
+The expected output should be:
+
+```
+Precision   : 0.8846
+Recall      : 0.8674
+F_0.5       : 0.8811
 ```
 
 ## Organizers

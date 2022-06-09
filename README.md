@@ -70,6 +70,14 @@ F_0.5       : 0.8811
 
 ## Organizers
 
+[Bashar Alhafni](https://basharalhafni.com/)
+
+[Ossama Obeid](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/researchers/ossama-obeid.html)
+
+[Houda Bouamor](https://www.andrew.cmu.edu/user/hbouamor/)
+
+[Nizar Habash](https://www.nizarhabash.com/)
+
 ## License
 This repo is available under the MIT license. See the [LICENSE](LICENSE) for more info.
 

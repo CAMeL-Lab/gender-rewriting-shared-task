@@ -19,7 +19,7 @@ All participating teams will use the publicly available [Arabic Parallel Gender 
 
 ## Evaluation:
 
-We will treat the task of gender rewriting as a user-aware grammatical error task and use the [M2 Scorer](https://aclanthology.org/N12-1067.pdf) as the evaluation metric. The M2 Scorer computes the Precision, Recall, and F0.5 of the word-level edits between the input and the rewritten output against the gold edits. We provide instructions on how to run the evaluation script below.<br/>
+We will treat the task of gender rewriting as a user-aware grammatical error correction task and use the [M2 Scorer](https://aclanthology.org/N12-1067.pdf) as the evaluation metric. The M2 Scorer computes the Precision, Recall, and F0.5 of the word-level edits between the input and the rewritten output against the gold edits. We provide instructions on how to run the evaluation script below.<br/>
 
 ### Requirements:
 

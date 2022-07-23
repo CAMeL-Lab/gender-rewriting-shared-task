@@ -2,7 +2,7 @@
 
 The Gender Rewriting Shared Task will take place at the Seventh Arabic Natural Language Processing Workshop (WANLP 2022) at EMNLP 2022.
 
-Please join our [Slack workspace](https://genderrewriting.slack.com/) and [Google Group](https://groups.google.com/g/gender-rewriting) to stay up to date. If you have any questions, feel free to [email](mailto:gender.rewriting.organizers@gmail.com) the organizers.
+Please join our [Slack workspace](https://join.slack.com/t/genderrewriting/shared_invite/zt-1d5zsjqjl-MdZw6g2D0q9wlkYsalZ4lg) and [Google Group](https://groups.google.com/g/gender-rewriting) to stay up to date. If you have any questions, feel free to [email](mailto:gender.rewriting.organizers@gmail.com) the organizers.
 
 ***Click here to [register for the shared task](https://docs.google.com/forms/d/e/1FAIpQLSfw45B_oH2eKh9R_JROviQj292ef93zR0dqza4SBr3myh1Ogw/viewform)!***
 
